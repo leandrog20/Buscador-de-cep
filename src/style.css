@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: radial-gradient(
+    circle 1292px at -13.6% 51.7%,
+    rgba(0, 56, 68, 1) 0%,
+    rgb(139, 224, 173) 71.5%,
+    rgb(239, 236, 236) 10.6%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    135deg,
+    rgba(210, 205, 205, 0.255),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+  box-shadow: rgba(2, 44, 29, 0.234) 0px 4px 12px;
+  color: rgb(5, 71, 49);
+}
+
+.container h1 {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+.containerSearch {
+  background-color: transparent;
+}
+
+.containerSearch input {
+  background-color: transparent;
+  padding: 5px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+
+.containerSearch,
+span,
+input::placeholder {
+  color: rgb(2, 44, 29);
+}
+
+.buttonSearch {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.buttonSearch:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-image: radial-gradient(
+      circle 1292px at -13.6% 51.7%,
+      rgba(0, 56, 68, 1) 0%,
+      rgb(139, 224, 173) 50.5%,
+      rgb(239, 236, 236) 10.6%
+    );
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: radial-gradient(
+      circle 1292px at -13.6% 51.7%,
+      rgba(0, 56, 68, 1) 0%,
+      rgb(139, 224, 173) 40.5%,
+      rgb(239, 236, 236) 10.6%
+    );
+  }
+  .container {
+    width: 350px;
+    height: 500px;
+  }
+
+  .container h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: radial-gradient(
+      circle 1292px at -13.6% 51.7%,
+      rgba(0, 56, 68, 1) 0%,
+      rgb(139, 224, 173) 30.5%,
+      rgb(239, 236, 236) 10.6%
+    );
+  }
+}
+
+@media (max-width: 350px) {
+  body {
+    background-color: rgb(2, 52, 30);
+  }
+
+  .container {
+    width: 250px;
+  }
+
+  .container h1 {
+    font-size: 20px;
+  }
+
+  .containerSearch {
+    width: 80%;
+    margin-left: 15px;
+  }
+
+  .containerSearch,
+  span,
+  input::placeholder {
+    font-size: 15px;
+  }
+
+  .containerSearch input {
+    width: 80%;
+  }
+}
