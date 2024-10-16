@@ -102,6 +102,11 @@ input::placeholder {
   .container h1 {
     font-size: 35px;
   }
+
+  .containerSearch {
+    width: 70%;
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -128,10 +133,6 @@ input::placeholder {
     font-size: 20px;
   }
 
-  .containerSearch {
-    width: 80%;
-    margin-left: 15px;
-  }
 
   .containerSearch,
   span,
@@ -141,7 +142,7 @@ input::placeholder {
 
   .containerSearch input {
     width: 70%;
-    margin-left: 10px;
+    margin-left: 15px;
     
   }
 }
