@@ -140,8 +140,8 @@ input::placeholder {
   }
 
   .containerSearch input {
-    width: 80%;
+    width: 70%;
     margin-left: 10px;
-    margin-right: 10px;
+    
   }
 }
