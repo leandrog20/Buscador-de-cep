@@ -140,9 +140,4 @@ input::placeholder {
     font-size: 15px;
   }
 
-  .containerSearch input {
-    width: 70%;
-    margin-left: 15px;
-    
-  }
 }
