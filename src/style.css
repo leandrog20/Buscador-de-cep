@@ -50,6 +50,7 @@ body {
 .containerSearch input {
   background-color: transparent;
   padding: 5px;
+  width: 80%;
   outline: none;
   border: none;
   font-size: 20px;
